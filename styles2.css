@@ -1,0 +1,113 @@
+body {
+    /* Default font */
+    font-family: 'Quicksand', sans-serif;
+  }
+  /* Except we're using more specific rules to override the headlines */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+  }
+  /* And the "logo" */
+  .navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: purple
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    color: purple
+  }
+  .navbar-light .navbar-brand {
+    color: purple
+  }
+  
+  /* Navbar background color */
+  .navbar {
+    background-color: lightgoldenrodyellow
+  }
+  
+  /* Jumbotron background and font styles */
+
+  .jumbotron {
+
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(kidsstock2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 630px;
+  
+    /* Fonts */
+    color: purple;
+  }
+
+  .jumbotron1 {
+
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(boysinfield2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+  
+    /* Fonts */
+    color: white;
+  }
+  
+  .jumbotron2 {
+
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(kidshappy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+  
+    /* Fonts */
+    color: white
+  }
+
+  .jumbotron3 {
+
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(kidbubbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  
+    /* Fonts */
+    color: white
+  }
+  
+  /* The background color of the "testimonials" part */
+  .testimonials {
+    background-color: white;
+    color: purple
+  }
+  
+  /* The size of the testimonials images */
+  .media img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* The size of the testimonials images */
+  .list-group img {
+    width: 160px;
+    height: 200px;
+  }
+  
+  /* The pricing */
+  .pricing {
+    background-color: white
+  }
+  .pricing h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: purple
+  }
+  
+  /* The footer */
+  .footer img {
+    width: 100px;
+  }
