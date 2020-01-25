@@ -119,8 +119,9 @@ body {
     color: white
   }
 
-  em {
+  .integrity-bold {
     text-transform: uppercase;
     font-size: x-large;
     font-weight: bolder;
-}
+    font-style: italic;
+  }
