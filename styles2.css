@@ -1,32 +1,32 @@
 body {
+
     /* Default font */
     font-family: 'Quicksand', sans-serif;
-  }
-  /* Except we're using more specific rules to override the headlines */
+}
+  
+/* Headline overrides */
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
   }
-  /* And the "logo" */
+
+/* Navbar */
+
   .navbar-brand {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    color: purple
+    color: purple;
   }
   .navbar-brand img {
     width: 30px;
     height: 30px;
-    color: purple
+    color: purple;
   }
   .navbar-light .navbar-brand {
-    color: purple
+    color: purple;
   }
   
-  /* Navbar background color */
-  .navbar {
-    background-color: lightgoldenrodyellow
-  }
-  
-  /* Jumbotron background and font styles */
+/* Jumbotron background and font styles */
 
   .jumbotron {
 
@@ -80,25 +80,25 @@ body {
     color: white
   }
   
-  /* The background color of the "testimonials" part */
+  /* Background color of "testimonials" */
   .testimonials {   
     background-color: white;
     color: purple
   }
   
-  /* The size of the testimonials images */
+  /* Size of testimonials images */
   .media img {
     width: 80px;
     height: 80px;
   }
 
-  /* The size of the testimonials images */
+  /* Size of testimonials images */
   .list-group img {
-    width: 160px;
-    height: 200px;
+    width: 180px;
+    height: 240px;
   }
   
-  /* The pricing */
+  /* Pricing page */
   .pricing {
     background-color: white
   }
@@ -107,7 +107,20 @@ body {
     color: purple
   }
   
-  /* The footer */
+  /* Footer */
   .footer img {
     width: 100px;
   }
+
+  /*Meet our staff page*/
+
+  .meetourstaff {
+    font-family: 'Quicksand', sans-serif;
+    color: white
+  }
+
+  em {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bolder;
+}
